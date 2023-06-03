@@ -1,3 +1,7 @@
+body{
+  background-image: linear-gradient(to bottom, lightgreen, lightpink,lavender );
+  height: 100vh;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MyShow{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 45vh;
+}
+.my{
+  color: honeydew;
+}
+.single{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px dashed khaki;
+  height: 38vh;
+}
+.FirstLeft{
+  width: 48%;
+}
+.FirstRight{
+  width: 48%;
+}
+.head{
+  text-align: center;
+}
+.btn{
+  background-color: skyblue;
+  width: 150px;
+  padding: 6px 3px;
+  font-size: 1.1rem;
+  color: yellow;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  
+}
+#mac{
+  color: purple;
+}
+#mac1{
+  color: rosybrown;
+}
+#mac2{
+  color: lime;
 }
